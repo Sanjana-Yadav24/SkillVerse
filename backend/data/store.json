@@ -1,0 +1,987 @@
+{
+  "roadmap_schema_version": 2,
+  "is_demo_environment": true,
+  "demo_banner": "DEMO MODE ACTIVE — Displaying sample student career data. TinyFish Live API is currently unconfigured.",
+  "student": {
+    "id": "stu-demo-01",
+    "name": "Aarav Verma (Demo Student)",
+    "degree": "B.Tech in Computer Science & Engineering",
+    "year": "3rd Year (Semester 5)",
+    "college": "National Institute of Technology (Ideathon Demo)",
+    "avatar_initials": "AV",
+    "xp": 1480,
+    "level": 6,
+    "level_title": "Emerging Builder",
+    "streak_days": 12,
+    "selected_career_id": "fullstack-ai",
+    "awarded_milestone_ids": [
+      "rm-be-4",
+      "rm-fe-4",
+      "rm-fs-4",
+      "rm-ml-4"
+    ],
+    "bio": "Passionate about building full-stack web applications and AI-powered developer tools. Looking for Summer 2027 Software Engineering Internships.",
+    "github_handle": "github.com/aarav-demo-dev",
+    "linkedin_handle": "linkedin.com/in/aarav-demo"
+  },
+  "skills": [
+    {
+      "id": "react-ts",
+      "name": "React & TypeScript",
+      "category": "Frontend",
+      "current_level": 78,
+      "verified_proofs": 3,
+      "x": 220,
+      "y": 140,
+      "description": "Component architecture, hooks, strict TypeScript interfaces, and state management.",
+      "proof_items": [
+        "Completed Challenge: Design an Interactive SVG Skill Proof Graph in React",
+        "Project: CampusConnect Event Portal (DEMO)",
+        "Project: SkillVerse Ideathon Prototype (DEMO)"
+      ]
+    },
+    {
+      "id": "python-flask",
+      "name": "Python & Flask APIs",
+      "category": "Backend",
+      "current_level": 72,
+      "verified_proofs": 2,
+      "x": 450,
+      "y": 120,
+      "description": "RESTful API design, blueprints, environment security, and backend service orchestration.",
+      "proof_items": [
+        "Completed Challenge: Secure API Proxy & Rate Limiter",
+        "Project: SmartLibrary REST Microservice (DEMO)"
+      ]
+    },
+    {
+      "id": "sql-db",
+      "name": "SQL & Data Modeling",
+      "category": "Backend",
+      "current_level": 64,
+      "verified_proofs": 2,
+      "x": 670,
+      "y": 170,
+      "description": "Relational schema design, indexing, joins, and query optimization in PostgreSQL.",
+      "proof_items": [
+        "Completed Challenge: Normalized E-Commerce Schema",
+        "Project: SmartLibrary REST Microservice (DEMO)"
+      ]
+    },
+    {
+      "id": "ui-tailwind",
+      "name": "Modern UI & Tailwind",
+      "category": "Frontend",
+      "current_level": 84,
+      "verified_proofs": 2,
+      "x": 140,
+      "y": 300,
+      "description": "Responsive design systems, dark-mode theming, accessibility (WCAG), and micro-interactions.",
+      "proof_items": [
+        "Project: CampusConnect Event Portal (DEMO)",
+        "Project: SkillVerse Ideathon Prototype (DEMO)"
+      ]
+    },
+    {
+      "id": "ai-llm",
+      "name": "LLM & Web Agent APIs",
+      "category": "AI & Data",
+      "current_level": 48,
+      "verified_proofs": 1,
+      "x": 420,
+      "y": 290,
+      "description": "Prompt engineering, structured JSON extraction, web automation agents (TinyFish), and RAG pipelines.",
+      "proof_items": [
+        "Project: StudyBuddy AI Flashcard Generator (DEMO)"
+      ]
+    },
+    {
+      "id": "dsa-algo",
+      "name": "Data Structures & Algorithms",
+      "category": "Core CS",
+      "current_level": 68,
+      "verified_proofs": 2,
+      "x": 660,
+      "y": 330,
+      "description": "Graphs, dynamic programming, trees, and asymptotic complexity analysis for technical interviews.",
+      "proof_items": [
+        "Completed Challenge: Implement Graph Shortest-Path Learning Recommender",
+        "Completed Challenge: Graph Shortest Path Visualizer"
+      ]
+    },
+    {
+      "id": "git-devops",
+      "name": "Git, Docker & CI/CD",
+      "category": "DevOps",
+      "current_level": 45,
+      "verified_proofs": 1,
+      "x": 280,
+      "y": 430,
+      "description": "Version control workflows, containerization with Docker, and automated GitHub Actions pipelines.",
+      "proof_items": [
+        "Project: SmartLibrary REST Microservice (DEMO)"
+      ]
+    },
+    {
+      "id": "system-design",
+      "name": "System Design & Architecture",
+      "category": "Core CS",
+      "current_level": 40,
+      "verified_proofs": 1,
+      "x": 540,
+      "y": 430,
+      "description": "Load balancing, caching strategies (Redis), API security, and scalable microservice patterns.",
+      "proof_items": [
+        "Project: SkillVerse Ideathon Prototype (DEMO)"
+      ]
+    }
+  ],
+  "skill_edges": [
+    {
+      "from": "ui-tailwind",
+      "to": "react-ts",
+      "label": "Component Styling"
+    },
+    {
+      "from": "react-ts",
+      "to": "python-flask",
+      "label": "Full-Stack REST Integration"
+    },
+    {
+      "from": "python-flask",
+      "to": "sql-db",
+      "label": "ORM & Persistence"
+    },
+    {
+      "from": "python-flask",
+      "to": "ai-llm",
+      "label": "AI Backend Orchestration"
+    },
+    {
+      "from": "react-ts",
+      "to": "ai-llm",
+      "label": "Streaming AI UI"
+    },
+    {
+      "from": "sql-db",
+      "to": "system-design",
+      "label": "Data Scaling"
+    },
+    {
+      "from": "dsa-algo",
+      "to": "system-design",
+      "label": "Algorithmic Efficiency"
+    },
+    {
+      "from": "git-devops",
+      "to": "python-flask",
+      "label": "Containerized Deploys"
+    },
+    {
+      "from": "git-devops",
+      "to": "system-design",
+      "label": "Cloud Infrastructure"
+    }
+  ],
+  "career_goals": [
+    {
+      "id": "fullstack-ai",
+      "title": "AI-Native Full-Stack Engineer",
+      "category": "Software Engineering & AI",
+      "avg_stipend_inr": "₹45,000 – ₹85,000 / mo (Demo Estimate)",
+      "stipend_is_demo": true,
+      "stipend_source_note": "Unverified demo estimate for student comparison — not backed by a live compensation dataset.",
+      "demand_badge": "High Growth (+42% YoY — Demo Estimate)",
+      "description": "Build end-to-end modern web applications infused with LLM workflows, intelligent web agents, and scalable Python/TypeScript backends.",
+      "required_skills": {
+        "react-ts": 85,
+        "python-flask": 80,
+        "ai-llm": 80,
+        "sql-db": 75,
+        "ui-tailwind": 80,
+        "git-devops": 70,
+        "system-design": 65,
+        "dsa-algo": 75
+      },
+      "roadmap": [
+        {
+          "id": "rm-fs-1",
+          "phase": "Phase 1: LLM & Web Agent APIs (Priority Gap #1)",
+          "duration": "Weeks 1–2",
+          "status": "in_progress",
+          "xp_awarded": false,
+          "skill_id": "ai-llm",
+          "priority_reason": "Addresses your #1 largest skill gap (+32% needed: 48% current vs. 80% target)",
+          "title": "Server-Side LLM Pipelines & Secure TinyFish Web Agent Orchestration",
+          "description": "Close your largest skill gap (+32%) by building backend-protected AI extraction pipelines, structured JSON schema validators, and resilient web agent wrappers without exposing API keys.",
+          "weekly_tasks": [
+            "Week 1: Build a Python Flask service wrapper for TinyFish Web Agent with strict .env key isolation, 10s connect / 120s read timeouts, and structured error handling.",
+            "Week 2: Implement deterministic HTML verification and structured JSON schema validation for extracted job postings with graceful fallback for missing/conflicting fields."
+          ],
+          "mini_project": "Automated Job Posting Verifier & Skill-Gap Extractor Microservice",
+          "completion_criterion": "Pass 100% of API key-isolation checks, handle HTTP 401/timeout errors without leaking secrets, and verify >=3 live job URLs with HTTP 200 title/company matching.",
+          "deliverable": "Verified Backend Web Agent & Structured Extraction Service",
+          "linked_challenge_ids": [
+            "chal-01"
+          ],
+          "linked_project_ids": [
+            "proj-demo-3"
+          ]
+        },
+        {
+          "id": "rm-fs-2",
+          "phase": "Phase 2: Git, Docker & CI/CD (Priority Gap #2)",
+          "duration": "Weeks 3–4",
+          "status": "upcoming",
+          "xp_awarded": false,
+          "skill_id": "git-devops",
+          "priority_reason": "Addresses your #2 largest skill gap (+25% needed: 45% current vs. 70% target)",
+          "title": "Multi-Container Docker Compose & Automated GitHub Actions CI/CD",
+          "description": "Close your +25% DevOps gap by packaging the React + TypeScript frontend and Python Flask API into reproducible containers with automated test gates.",
+          "weekly_tasks": [
+            "Week 3: Write a multi-stage Dockerfile (Node 20 build stage + Python 3.12-slim runtime) and docker-compose.yml with backend-only .env secret injection.",
+            "Week 4: Configure a GitHub Actions workflow that runs backend pytest checks, TypeScript type-checking, and container healthcheck validation on every push."
+          ],
+          "mini_project": "Containerized Full-Stack SkillVerse Stack with Automated CI Pipeline",
+          "completion_criterion": "Single 'docker compose up --build' boots both services in <30s with a passing /api/health check and zero secrets present in image layers.",
+          "deliverable": "Reproducible Multi-Container Docker & GitHub Actions CI Suite",
+          "linked_challenge_ids": [
+            "chal-04"
+          ],
+          "linked_project_ids": [
+            "proj-demo-2"
+          ]
+        },
+        {
+          "id": "rm-fs-3",
+          "phase": "Phase 3: System Design & Architecture (Priority Gap #3)",
+          "duration": "Weeks 5–6",
+          "status": "upcoming",
+          "xp_awarded": false,
+          "skill_id": "system-design",
+          "priority_reason": "Addresses your #3 largest skill gap (+25% needed: 40% current vs. 65% target)",
+          "title": "Rate-Limited API Gateway, Response Caching & Scalable Architecture",
+          "description": "Close your +25% System Design gap by architecting token-bucket rate limiters, TTL response caches, and fault-tolerant external API orchestration.",
+          "weekly_tasks": [
+            "Week 5: Implement a per-student token-bucket rate limiter (10 live lookups/hour) returning RFC-compliant Retry-After headers when quotas are exceeded.",
+            "Week 6: Add a 6-hour TTL caching layer for repeated career research queries and document a system architecture diagram covering failure modes."
+          ],
+          "mini_project": "Rate-Limited & Cached API Gateway for External AI/Web Agent Calls",
+          "completion_criterion": "Handles 100 simulated concurrent requests with <25ms cached response time and deterministic HTTP 429 throttling on quota overflow.",
+          "deliverable": "Rate-Limited API Gateway Blueprint & Load Benchmark Report",
+          "linked_challenge_ids": [
+            "chal-05"
+          ],
+          "linked_project_ids": [
+            "proj-demo-1"
+          ]
+        },
+        {
+          "id": "rm-fs-4",
+          "phase": "Phase 4: SQL Optimization & Type-Safe Full-Stack Polish",
+          "duration": "Weeks 7–8",
+          "status": "completed",
+          "xp_awarded": true,
+          "skill_id": "sql-db",
+          "priority_reason": "Consolidates near-target skills: SQL (+11%), Python/Flask (+8%), and React/TS (+7%)",
+          "title": "Indexed Relational Persistence & Interactive React + TypeScript Graph",
+          "description": "Finish closing your remaining near-target gaps (+7% to +11%) by combining indexed SQL queries, Flask REST endpoints, and interactive SVG data visualization.",
+          "weekly_tasks": [
+            "Week 7: Write CTE and DENSE_RANK() window queries with composite indexes to eliminate N+1 query bottlenecks on student skill leaderboards.",
+            "Week 8: Connect the interactive SVG Skill Proof Graph and persistent Career Roadmap state to Flask REST endpoints with strict TypeScript interfaces."
+          ],
+          "mini_project": "Full-Stack Skill Proof Leaderboard & Interactive Graph Explorer",
+          "completion_criterion": "SQL query plan uses composite index scan (<15ms on 10k sample rows) and React frontend builds with zero TypeScript errors.",
+          "deliverable": "End-to-End Full-Stack Capstone with Verified Skill Proof Graph",
+          "linked_challenge_ids": [
+            "chal-03",
+            "chal-02"
+          ],
+          "linked_project_ids": [
+            "proj-demo-1",
+            "proj-demo-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backend-cloud",
+      "title": "Cloud & Distributed Backend Engineer",
+      "category": "Backend & Infrastructure",
+      "avg_stipend_inr": "₹40,000 – ₹80,000 / mo (Demo Estimate)",
+      "stipend_is_demo": true,
+      "stipend_source_note": "Unverified demo estimate for student comparison — not backed by a live compensation dataset.",
+      "demand_badge": "Core Enterprise Demand (Demo Estimate)",
+      "description": "Architect high-throughput APIs, relational databases, background job queues, and resilient cloud-native microservices.",
+      "required_skills": {
+        "python-flask": 90,
+        "sql-db": 88,
+        "system-design": 82,
+        "git-devops": 85,
+        "dsa-algo": 85,
+        "react-ts": 55,
+        "ai-llm": 60,
+        "ui-tailwind": 50
+      },
+      "roadmap": [
+        {
+          "id": "rm-be-1",
+          "phase": "Phase 1: System Design & Resilient Gateways (Priority Gap #1)",
+          "duration": "Weeks 1–2",
+          "status": "in_progress",
+          "xp_awarded": false,
+          "skill_id": "system-design",
+          "priority_reason": "Addresses your #1 largest skill gap for this track (+42% needed: 40% current vs. 82% target)",
+          "title": "Rate-Limited API Gateways, Caching & Idempotent Webhooks",
+          "description": "Close your +42% System Design gap by designing token-bucket rate limiters, distributed caching strategies, and idempotent retry queues.",
+          "weekly_tasks": [
+            "Week 1: Build a token-bucket rate limiter and response cache middleware protecting backend endpoints from traffic spikes.",
+            "Week 2: Design idempotent webhook handlers with exponential backoff and dead-letter queue recovery."
+          ],
+          "mini_project": "High-Throughput Rate-Limited API Gateway Service",
+          "completion_criterion": "Enforces per-client quotas accurately under 200 concurrent requests and serves cached payloads in <20ms.",
+          "deliverable": "Distributed API Gateway & Caching Service",
+          "linked_challenge_ids": [
+            "chal-05"
+          ],
+          "linked_project_ids": [
+            "proj-demo-1"
+          ]
+        },
+        {
+          "id": "rm-be-2",
+          "phase": "Phase 2: Docker Containers & CI/CD Automation (Priority Gap #2)",
+          "duration": "Weeks 3–4",
+          "status": "upcoming",
+          "xp_awarded": false,
+          "skill_id": "git-devops",
+          "priority_reason": "Addresses your #2 largest skill gap for this track (+40% needed: 45% current vs. 85% target)",
+          "title": "Docker Multi-Stage Builds, Healthchecks & Automated Pipelines",
+          "description": "Close your +40% DevOps gap by containerizing backend services with automated health checks and CI test workflows.",
+          "weekly_tasks": [
+            "Week 3: Create production Python 3.12-slim Dockerfiles and docker-compose orchestration with isolated environment secrets.",
+            "Week 4: Add automated GitHub Actions workflows for unit testing, linting, and container smoke tests."
+          ],
+          "mini_project": "Containerized Microservice Stack with Healthcheck Probes",
+          "completion_criterion": "Containers pass automated readiness/liveness probes and recover from simulated process crashes within 5 seconds.",
+          "deliverable": "Monitored Docker Compose Microservice Stack",
+          "linked_challenge_ids": [
+            "chal-04"
+          ],
+          "linked_project_ids": [
+            "proj-demo-2"
+          ]
+        },
+        {
+          "id": "rm-be-3",
+          "phase": "Phase 3: Advanced SQL Indexing & Transactions (Priority Gap #3)",
+          "duration": "Weeks 5–6",
+          "status": "upcoming",
+          "xp_awarded": false,
+          "skill_id": "sql-db",
+          "priority_reason": "Addresses your #3 largest skill gap for this track (+24% needed: 64% current vs. 88% target)",
+          "title": "ACID Transactions, Window Functions & Composite Indexing",
+          "description": "Close your +24% SQL gap by optimizing slow relational queries with CTEs, window functions, and composite indexes.",
+          "weekly_tasks": [
+            "Week 5: Profile analytical queries with EXPLAIN ANALYZE and replace N+1 loops with indexed CTEs and DENSE_RANK().",
+            "Week 6: Implement transactional isolation and optimistic locking for concurrent write workloads."
+          ],
+          "mini_project": "High-Concurrency Leaderboard & Reservation Database Layer",
+          "completion_criterion": "Reduces benchmark query latency by >=70% on 50,000 synthetic rows with zero race-condition write conflicts.",
+          "deliverable": "Optimized PostgreSQL Schema & Benchmark Suite",
+          "linked_challenge_ids": [
+            "chal-03"
+          ],
+          "linked_project_ids": [
+            "proj-demo-2"
+          ]
+        },
+        {
+          "id": "rm-be-4",
+          "phase": "Phase 4: Production Python & Flask API Hardening",
+          "duration": "Weeks 7–8",
+          "status": "completed",
+          "xp_awarded": true,
+          "skill_id": "python-flask",
+          "priority_reason": "Consolidates Python & Flask APIs (+18% needed: 72% current vs. 90% target)",
+          "title": "Modular Flask Blueprints, Input Validation & Service Layers",
+          "description": "Structure Python backend services with clean separation of concerns, strict request validation, and structured error envelopes.",
+          "weekly_tasks": [
+            "Week 7: Refactor monolithic routes into modular Flask Blueprints and dedicated service modules.",
+            "Week 8: Add comprehensive integration tests covering happy paths, edge cases, and error payloads."
+          ],
+          "mini_project": "Hardened REST API Microservice with Integration Test Suite",
+          "completion_criterion": "Achieves >=90% route test coverage with zero unhandled 500 exceptions on malformed input payloads.",
+          "deliverable": "Production-Grade Flask REST Service",
+          "linked_challenge_ids": [
+            "chal-01"
+          ],
+          "linked_project_ids": [
+            "proj-demo-1",
+            "proj-demo-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-ml",
+      "title": "Machine Learning & AI Data Engineer",
+      "category": "AI & Data Science",
+      "avg_stipend_inr": "₹50,000 – ₹90,000 / mo (Demo Estimate)",
+      "stipend_is_demo": true,
+      "stipend_source_note": "Unverified demo estimate for student comparison — not backed by a live compensation dataset.",
+      "demand_badge": "Top Research & Startup Role (Demo Estimate)",
+      "description": "Design data ingestion pipelines, fine-tune and evaluate AI models, and deploy intelligent data products via Python APIs.",
+      "required_skills": {
+        "ai-llm": 92,
+        "python-flask": 85,
+        "sql-db": 85,
+        "dsa-algo": 80,
+        "system-design": 70,
+        "git-devops": 65,
+        "react-ts": 55,
+        "ui-tailwind": 45
+      },
+      "roadmap": [
+        {
+          "id": "rm-ml-1",
+          "phase": "Phase 1: LLM Agents & Structured Extraction (Priority Gap #1)",
+          "duration": "Weeks 1–2",
+          "status": "in_progress",
+          "xp_awarded": false,
+          "skill_id": "ai-llm",
+          "priority_reason": "Addresses your #1 largest skill gap for this track (+44% needed: 48% current vs. 92% target)",
+          "title": "Agentic Web Extraction, Prompt Guardrails & Evaluation",
+          "description": "Close your +44% LLM & Web Agent gap by building deterministic extraction pipelines and automated accuracy evaluations.",
+          "weekly_tasks": [
+            "Week 1: Build a secure Python wrapper for TinyFish Web Agent to extract structured job and skill datasets.",
+            "Week 2: Implement provenance verification and deterministic skill-matching evaluation benchmarks."
+          ],
+          "mini_project": "Verified Web Agent Extractor & Skill-Graph Matcher",
+          "completion_criterion": "Extracts and verifies live postings with 100% single-URL provenance accuracy and zero hallucinated fields.",
+          "deliverable": "Semantic Career & Skill Extraction Engine",
+          "linked_challenge_ids": [
+            "chal-01"
+          ],
+          "linked_project_ids": [
+            "proj-demo-3"
+          ]
+        },
+        {
+          "id": "rm-ml-2",
+          "phase": "Phase 2: Scalable ML System Design (Priority Gap #2)",
+          "duration": "Weeks 3–4",
+          "status": "upcoming",
+          "xp_awarded": false,
+          "skill_id": "system-design",
+          "priority_reason": "Addresses your #2 largest skill gap for this track (+30% needed: 40% current vs. 70% target)",
+          "title": "Inference Caching, Rate Limiting & Latency Guardrails",
+          "description": "Close your +30% System Design gap by designing low-latency caching layers and quota management for AI endpoints.",
+          "weekly_tasks": [
+            "Week 3: Design a token-bucket rate limiter and TTL cache for high-cost LLM/agent requests.",
+            "Week 4: Add fallback strategies and timeout circuit breakers for external model APIs."
+          ],
+          "mini_project": "Resilient AI Gateway with Quota & Cache Management",
+          "completion_criterion": "Reduces duplicate agent/LLM calls by 100% within the cache window and enforces strict per-user rate limits.",
+          "deliverable": "Resilient AI Inference Gateway Blueprint",
+          "linked_challenge_ids": [
+            "chal-05"
+          ],
+          "linked_project_ids": [
+            "proj-demo-1"
+          ]
+        },
+        {
+          "id": "rm-ml-3",
+          "phase": "Phase 3: Analytical SQL & Feature Pipelines (Priority Gap #3)",
+          "duration": "Weeks 5–6",
+          "status": "upcoming",
+          "xp_awarded": false,
+          "skill_id": "sql-db",
+          "priority_reason": "Addresses your #3 largest skill gap for this track (+21% needed: 64% current vs. 85% target)",
+          "title": "Window Functions, ETL Cleaning & Indexed Feature Stores",
+          "description": "Close your +21% SQL gap by building clean analytical tables and ranked feature queries using CTEs and window functions.",
+          "weekly_tasks": [
+            "Week 5: Write CTE pipelines and DENSE_RANK() window queries to aggregate multi-source skill proof data.",
+            "Week 6: Add composite indexes and validate query execution plans on analytical workloads."
+          ],
+          "mini_project": "Automated Career Market ETL & Ranking Query Suite",
+          "completion_criterion": "Executes analytical ranking queries in <20ms using composite indexes without full table scans.",
+          "deliverable": "Indexed SQL Analytics & Feature Store Layer",
+          "linked_challenge_ids": [
+            "chal-03"
+          ],
+          "linked_project_ids": [
+            "proj-demo-2"
+          ]
+        },
+        {
+          "id": "rm-ml-4",
+          "phase": "Phase 4: Python Model Serving & Graph Recommenders",
+          "duration": "Weeks 7–8",
+          "status": "completed",
+          "xp_awarded": true,
+          "skill_id": "python-flask",
+          "priority_reason": "Consolidates Python APIs (+13% gap) and Graph Algorithms (+12% gap)",
+          "title": "Fast Python Inference Endpoints & DAG Learning Recommenders",
+          "description": "Expose data models and graph-based learning recommenders over clean Flask REST endpoints.",
+          "weekly_tasks": [
+            "Week 7: Implement topological sorting and shortest-path recommendation logic on the Skill Proof DAG.",
+            "Week 8: Serve recommendations via validated Flask REST endpoints with reproducible Docker packaging."
+          ],
+          "mini_project": "DAG Skill Recommender & Flask Inference API",
+          "completion_criterion": "Computes optimal learning sequences in O(V + E log V) time and returns validated JSON via REST API.",
+          "deliverable": "Production Python Recommendation Microservice",
+          "linked_challenge_ids": [
+            "chal-06",
+            "chal-04"
+          ],
+          "linked_project_ids": [
+            "proj-demo-3",
+            "proj-demo-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frontend-ux",
+      "title": "Product Frontend & Design Engineer",
+      "category": "Frontend & Interactive Systems",
+      "avg_stipend_inr": "₹35,000 – ₹75,000 / mo (Demo Estimate)",
+      "stipend_is_demo": true,
+      "stipend_source_note": "Unverified demo estimate for student comparison — not backed by a live compensation dataset.",
+      "demand_badge": "High Startup Demand (Demo Estimate)",
+      "description": "Craft ultra-responsive, accessible, data-rich user interfaces, interactive visualizations, and design systems with React and TypeScript.",
+      "required_skills": {
+        "react-ts": 92,
+        "ui-tailwind": 90,
+        "system-design": 68,
+        "python-flask": 65,
+        "ai-llm": 65,
+        "git-devops": 65,
+        "dsa-algo": 70,
+        "sql-db": 55
+      },
+      "roadmap": [
+        {
+          "id": "rm-fe-1",
+          "phase": "Phase 1: Frontend System Design & Caching (Priority Gap #1)",
+          "duration": "Weeks 1–2",
+          "status": "in_progress",
+          "xp_awarded": false,
+          "skill_id": "system-design",
+          "priority_reason": "Addresses your #1 largest skill gap for this track (+28% needed: 40% current vs. 68% target)",
+          "title": "Client-Server State Sync, Caching & Rate-Limit Resilience",
+          "description": "Close your +28% System Design gap by designing resilient client-server caching, optimistic UI updates, and graceful rate-limit handling.",
+          "weekly_tasks": [
+            "Week 1: Architect a client-side request deduplicator and backend rate-limit/cache gateway.",
+            "Week 2: Implement optimistic UI state transitions with deterministic rollback on network failure."
+          ],
+          "mini_project": "Resilient Data Fetching & Optimistic State Sync Layer",
+          "completion_criterion": "Zero duplicate network requests on rapid tab switches and clean recovery from simulated HTTP 429/500 responses.",
+          "deliverable": "Frontend Architecture & API Resilience Module",
+          "linked_challenge_ids": [
+            "chal-05"
+          ],
+          "linked_project_ids": [
+            "proj-demo-1"
+          ]
+        },
+        {
+          "id": "rm-fe-2",
+          "phase": "Phase 2: Frontend Dockerization & CI Checks (Priority Gap #2)",
+          "duration": "Weeks 3–4",
+          "status": "upcoming",
+          "xp_awarded": false,
+          "skill_id": "git-devops",
+          "priority_reason": "Addresses your #2 largest skill gap for this track (+20% needed: 45% current vs. 65% target)",
+          "title": "Automated Type-Checking, Bundle Budgets & Container Deploys",
+          "description": "Close your +20% DevOps gap by automating Vite production builds, bundle-size checks, and Docker container packaging.",
+          "weekly_tasks": [
+            "Week 3: Containerize the Vite + React build pipeline with Flask static asset serving in Docker Compose.",
+            "Week 4: Add automated CI checks enforcing zero TypeScript errors and strict CSS/JS bundle budgets."
+          ],
+          "mini_project": "Automated Frontend Build & Container Deployment Pipeline",
+          "completion_criterion": "Production build completes in <15s with zero TypeScript errors and serves cleanly from the containerized backend.",
+          "deliverable": "Containerized Frontend CI/CD Pipeline",
+          "linked_challenge_ids": [
+            "chal-04"
+          ],
+          "linked_project_ids": [
+            "proj-demo-2"
+          ]
+        },
+        {
+          "id": "rm-fe-3",
+          "phase": "Phase 3: AI-Powered UX & Streaming Agent Interfaces (Priority Gap #3)",
+          "duration": "Weeks 5–6",
+          "status": "upcoming",
+          "xp_awarded": false,
+          "skill_id": "ai-llm",
+          "priority_reason": "Addresses your #3 largest skill gap for this track (+17% needed: 48% current vs. 65% target)",
+          "title": "Interactive Web Agent Status Views & Verification UX",
+          "description": "Close your +17% AI/LLM gap by building transparent UI workflows for live web agent scans, provenance badges, and score explanations.",
+          "weekly_tasks": [
+            "Week 5: Connect React views to the backend TinyFish verification endpoint with clear loading, conflict, and fallback states.",
+            "Week 6: Render transparent match-score arithmetic breakdowns and single-URL provenance badges."
+          ],
+          "mini_project": "Interactive AI Career Research & Provenance Inspector UI",
+          "completion_criterion": "Displays verified vs. unverified job states, location conflict warnings, and full score math without exposing API keys.",
+          "deliverable": "AI-Native Career Research Interface",
+          "linked_challenge_ids": [
+            "chal-01"
+          ],
+          "linked_project_ids": [
+            "proj-demo-3"
+          ]
+        },
+        {
+          "id": "rm-fe-4",
+          "phase": "Phase 4: Interactive SVG Skill Graph & Accessible Design System",
+          "duration": "Weeks 7–8",
+          "status": "completed",
+          "xp_awarded": true,
+          "skill_id": "react-ts",
+          "priority_reason": "Consolidates core strengths: React & TypeScript (+14% gap) and Modern UI & Tailwind (+6% gap)",
+          "title": "Interactive SVG Network Graph & WCAG-Accessible Dark Theme",
+          "description": "Master advanced React + TypeScript SVG data visualization and accessible component architecture.",
+          "weekly_tasks": [
+            "Week 7: Build an interactive node-link SVG Skill Proof Graph with edge highlighting and inspection drawers.",
+            "Week 8: Audit color contrast, keyboard navigation, and responsive layouts across mobile and desktop viewports."
+          ],
+          "mini_project": "Interactive SVG Skill Proof Graph & Component Library",
+          "completion_criterion": "Renders all skill nodes and synergy edges smoothly at 60fps with full keyboard/click inspection support.",
+          "deliverable": "Production SkillVerse UI & Interactive Graph Engine",
+          "linked_challenge_ids": [
+            "chal-02"
+          ],
+          "linked_project_ids": [
+            "proj-demo-1",
+            "proj-demo-3"
+          ]
+        }
+      ]
+    }
+  ],
+  "challenges": [
+    {
+      "id": "chal-01",
+      "title": "Build a Secure Backend API Wrapper for TinyFish",
+      "skill_id": "ai-llm",
+      "skill_name": "LLM & Web Agent APIs",
+      "difficulty": "Intermediate",
+      "xp_reward": 250,
+      "skill_boost": 12,
+      "estimated_time": "45 mins",
+      "completed": false,
+      "is_demo": true,
+      "description": "Create a Python service module that reads TINYFISH_API_KEY from environment variables, validates requests, and provides a clean fallback when keys are not yet connected.",
+      "acceptance_criteria": [
+        "Never expose TINYFISH_API_KEY in frontend code or browser network responses",
+        "Return structured JSON with a clear 'is_demo' flag when unconfigured",
+        "Handle network timeouts gracefully with a 15-second limit"
+      ]
+    },
+    {
+      "id": "chal-02",
+      "title": "Design an Interactive SVG Skill Proof Graph in React",
+      "skill_id": "react-ts",
+      "skill_name": "React & TypeScript",
+      "difficulty": "Intermediate",
+      "xp_reward": 200,
+      "skill_boost": 8,
+      "estimated_time": "60 mins",
+      "completed": true,
+      "is_demo": true,
+      "description": "Build a clickable node-link graph component in TypeScript that visualizes how a student's verified projects and challenges prove each technical skill.",
+      "acceptance_criteria": [
+        "Render skill nodes color-coded by domain category",
+        "Highlight connected prerequisite and synergy edges on node selection",
+        "Display verified proof items and target role gap in an inspection drawer"
+      ]
+    },
+    {
+      "id": "chal-03",
+      "title": "Optimize SQL Query for Student Skill Leaderboard",
+      "skill_id": "sql-db",
+      "skill_name": "SQL & Data Modeling",
+      "difficulty": "Intermediate",
+      "xp_reward": 180,
+      "skill_boost": 10,
+      "estimated_time": "35 mins",
+      "completed": false,
+      "is_demo": true,
+      "description": "Write an indexed SQL query using Common Table Expressions (CTEs) and window functions (DENSE_RANK) to rank students by verified skill proofs without N+1 queries.",
+      "acceptance_criteria": [
+        "Aggregate verified project proofs and completed challenges per student",
+        "Use DENSE_RANK() partitioned by target career track",
+        "Add a composite index on (career_id, verified_proof_count DESC)"
+      ]
+    },
+    {
+      "id": "chal-04",
+      "title": "Containerize React + Flask with Docker Compose",
+      "skill_id": "git-devops",
+      "skill_name": "Git, Docker & CI/CD",
+      "difficulty": "Advanced",
+      "xp_reward": 300,
+      "skill_boost": 15,
+      "estimated_time": "50 mins",
+      "completed": false,
+      "is_demo": true,
+      "description": "Write a multi-service docker-compose.yml that runs the Flask backend on port 5000 and serves the Vite React frontend with environment variable injection.",
+      "acceptance_criteria": [
+        "Create a lightweight Python 3.12-slim Dockerfile for Flask",
+        "Configure healthcheck endpoints for automatic container restart",
+        "Pass .env secrets strictly to the backend container only"
+      ]
+    },
+    {
+      "id": "chal-05",
+      "title": "Architect a Rate-Limited API Gateway Blueprint",
+      "skill_id": "system-design",
+      "skill_name": "System Design & Architecture",
+      "difficulty": "Advanced",
+      "xp_reward": 275,
+      "skill_boost": 14,
+      "estimated_time": "40 mins",
+      "completed": false,
+      "is_demo": true,
+      "description": "Design a token-bucket rate limiter and response cache layer for external career research API calls so 1,000 concurrent students don't exhaust API quotas.",
+      "acceptance_criteria": [
+        "Implement per-student request throttling (10 live lookups/hour)",
+        "Cache identical internship role queries for 6 hours",
+        "Return clear retry-after headers when quota is exceeded"
+      ]
+    },
+    {
+      "id": "chal-06",
+      "title": "Implement Graph Shortest-Path Learning Recommender",
+      "skill_id": "dsa-algo",
+      "skill_name": "Data Structures & Algorithms",
+      "difficulty": "Intermediate",
+      "xp_reward": 220,
+      "skill_boost": 9,
+      "estimated_time": "45 mins",
+      "completed": true,
+      "is_demo": true,
+      "description": "Use topological sorting and weighted shortest paths (Dijkstra's algorithm) to order a student's learning roadmap from foundational skills to advanced capstone skills.",
+      "acceptance_criteria": [
+        "Represent skill dependencies as a Directed Acyclic Graph (DAG)",
+        "Detect cycles and compute minimum learning weeks to target readiness",
+        "Output ordered milestone sequence in O(V + E log V) time"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-demo-1",
+      "title": "SkillVerse — AI Career & Skill Proof Platform [DEMO]",
+      "tagline": "Ideathon flagship web app mapping student proof-of-work to live career readiness.",
+      "description": "Built a full-stack React + TypeScript and Python Flask application featuring an interactive SVG Skill Proof Graph, dynamic skill gap calculator, and a secure backend architecture prepared for TinyFish Web Agent integration.",
+      "tech_stack": [
+        "React",
+        "TypeScript",
+        "Python",
+        "Flask",
+        "Tailwind CSS",
+        "TinyFish Ready"
+      ],
+      "linked_skills": [
+        "react-ts",
+        "python-flask",
+        "ui-tailwind",
+        "system-design"
+      ],
+      "github_url": "https://github.com/demo-student/skillverse-ideathon",
+      "live_url": "https://skillverse-demo.example.com",
+      "date_added": "Oct 2026",
+      "verified_badge": "Ideathon Prototype (Demo Data)",
+      "is_demo": true
+    },
+    {
+      "id": "proj-demo-2",
+      "title": "SmartLibrary REST Microservice & Analytics [DEMO]",
+      "tagline": "Automated book lending & overdue prediction API for university libraries.",
+      "description": "Designed a normalized PostgreSQL database schema and Flask REST API serving 2,500+ simulated student records with automated Docker deployment and role-based access control.",
+      "tech_stack": [
+        "Python",
+        "Flask",
+        "PostgreSQL",
+        "Docker",
+        "REST API"
+      ],
+      "linked_skills": [
+        "python-flask",
+        "sql-db",
+        "git-devops"
+      ],
+      "github_url": "https://github.com/demo-student/smart-library-api",
+      "live_url": "https://smartlibrary-demo.example.com",
+      "date_added": "Sep 2026",
+      "verified_badge": "Course Capstone (Demo Data)",
+      "is_demo": true
+    },
+    {
+      "id": "proj-demo-3",
+      "title": "StudyBuddy AI Flashcard & Quiz Generator [DEMO]",
+      "tagline": "Turns lecture PDFs into active-recall flashcards and spaced-repetition quizzes.",
+      "description": "Created an interactive frontend in React & Tailwind connected to an LLM extraction pipeline that parses course notes into structured JSON question banks.",
+      "tech_stack": [
+        "React",
+        "TypeScript",
+        "LLM API",
+        "Tailwind CSS"
+      ],
+      "linked_skills": [
+        "react-ts",
+        "ui-tailwind",
+        "ai-llm"
+      ],
+      "github_url": "https://github.com/demo-student/studybuddy-ai",
+      "live_url": "https://studybuddy-demo.example.com",
+      "date_added": "Aug 2026",
+      "verified_badge": "Hackathon Finalist (Demo Data)",
+      "is_demo": true
+    }
+  ],
+  "demo_internships": [
+    {
+      "id": "int-demo-01",
+      "role": "Software Engineering Intern (Full-Stack & AI Agents)",
+      "company": "NovaScale Labs [DEMO LISTING]",
+      "location": "Bengaluru / Hybrid",
+      "stipend": "₹65,000 / month (Demo Estimate)",
+      "duration": "6 Months (Jan – Jun 2027)",
+      "career_track": "fullstack-ai",
+      "match_score": 84,
+      "is_demo": true,
+      "source_label": "DEMO DATA — Sample Internship Listing",
+      "required_skills": [
+        "React & TypeScript",
+        "Python & Flask APIs",
+        "LLM & Web Agent APIs",
+        "SQL & Data Modeling"
+      ],
+      "missing_skills_hint": [
+        "Boost LLM & Web Agent APIs (+32% needed)",
+        "Boost Git, Docker & CI/CD (+25% needed)"
+      ],
+      "highlights": [
+        "Build customer-facing dashboards in React + TypeScript",
+        "Integrate automated web research agents and LLM pipelines in Python",
+        "Pre-placement offer (PPO) opportunity based on project impact"
+      ],
+      "apply_readiness": "Strong Match — Complete 1 AI Backend challenge to reach 90%+ readiness"
+    },
+    {
+      "id": "int-demo-02",
+      "role": "Backend & Cloud Platform Intern",
+      "company": "FinEdge Payments [DEMO LISTING]",
+      "location": "Gurugram / Remote",
+      "stipend": "₹55,000 / month (Demo Estimate)",
+      "duration": "3 Months (Summer 2027)",
+      "career_track": "backend-cloud",
+      "match_score": 76,
+      "is_demo": true,
+      "source_label": "DEMO DATA — Sample Internship Listing",
+      "required_skills": [
+        "Python & Flask APIs",
+        "SQL & Data Modeling",
+        "System Design & Architecture",
+        "Git, Docker & CI/CD"
+      ],
+      "missing_skills_hint": [
+        "Boost System Design & Architecture (+42% needed)",
+        "Boost Git, Docker & CI/CD (+40% needed)"
+      ],
+      "highlights": [
+        "Work on high-throughput merchant settlement APIs in Python",
+        "Optimize PostgreSQL queries and Redis caching layers",
+        "Write unit and integration tests inside Dockerized CI pipelines"
+      ],
+      "apply_readiness": "Moderate Match — Focus on System Design & Docker challenges"
+    },
+    {
+      "id": "int-demo-03",
+      "role": "Applied AI & Web Automation Intern",
+      "company": "AetherMind Research [DEMO LISTING]",
+      "location": "Remote (India)",
+      "stipend": "₹70,000 / month (Demo Estimate)",
+      "duration": "6 Months",
+      "career_track": "data-ml",
+      "match_score": 71,
+      "is_demo": true,
+      "source_label": "DEMO DATA — Sample Internship Listing",
+      "required_skills": [
+        "LLM & Web Agent APIs",
+        "Python & Flask APIs",
+        "Data Structures & Algorithms",
+        "SQL & Data Modeling"
+      ],
+      "missing_skills_hint": [
+        "Boost LLM & Web Agent APIs (+44% needed)",
+        "Boost SQL & Data Modeling (+21% needed)"
+      ],
+      "highlights": [
+        "Design multi-step web automation workflows and structured data extractors",
+        "Evaluate LLM accuracy on real-world industry benchmarks",
+        "Collaborate directly with founding AI engineers"
+      ],
+      "apply_readiness": "Developing Match — Build 1 more AI Agent project in your portfolio"
+    },
+    {
+      "id": "int-demo-04",
+      "role": "Frontend Design Engineer Intern",
+      "company": "PixelCraft Studio [DEMO LISTING]",
+      "location": "Mumbai / Remote",
+      "stipend": "₹45,000 / month (Demo Estimate)",
+      "duration": "4 Months",
+      "career_track": "frontend-ux",
+      "match_score": 89,
+      "is_demo": true,
+      "source_label": "DEMO DATA — Sample Internship Listing",
+      "required_skills": [
+        "React & TypeScript",
+        "Modern UI & Tailwind",
+        "System Design & Architecture"
+      ],
+      "missing_skills_hint": [
+        "Boost React & TypeScript (+14% needed)"
+      ],
+      "highlights": [
+        "Own interactive data visualizations and dark-mode design systems",
+        "Collaborate with product designers to ship micro-interactions",
+        "Optimize Core Web Vitals and accessibility compliance"
+      ],
+      "apply_readiness": "High Readiness — Ready to apply with your current React & UI proof graph!"
+    },
+    {
+      "id": "int-demo-05",
+      "role": "SDE Intern — Developer Productivity & Tooling",
+      "company": "CloudPulse Systems [DEMO LISTING]",
+      "location": "Hyderabad / Hybrid",
+      "stipend": "₹60,000 / month (Demo Estimate)",
+      "duration": "6 Months",
+      "career_track": "fullstack-ai",
+      "match_score": 81,
+      "is_demo": true,
+      "source_label": "DEMO DATA — Sample Internship Listing",
+      "required_skills": [
+        "React & TypeScript",
+        "Python & Flask APIs",
+        "Git, Docker & CI/CD",
+        "Data Structures & Algorithms"
+      ],
+      "missing_skills_hint": [
+        "Boost Git, Docker & CI/CD (+25% needed)"
+      ],
+      "highlights": [
+        "Build internal developer portals and automated deployment dashboards",
+        "Integrate AI code-review helpers into CI/CD pipelines",
+        "Mentorship from senior principal engineers"
+      ],
+      "apply_readiness": "Strong Match — Complete the Docker Compose challenge to stand out"
+    }
+  ]
+}

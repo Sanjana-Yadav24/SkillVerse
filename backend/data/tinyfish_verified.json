@@ -1,0 +1,47 @@
+{
+  "verified_live": true,
+  "last_run_id": "54bb4940-de9e-4b85-ba0b-aaf728e5d1ce",
+  "last_error": null,
+  "last_live_result": {
+    "run_id": "54bb4940-de9e-4b85-ba0b-aaf728e5d1ce",
+    "status": "COMPLETED",
+    "num_of_steps": 3,
+    "target_url": "https://www.python.org/jobs/",
+    "extracted_count": 5,
+    "result": {
+      "jobs": [
+        {
+          "company": "3Gimbals",
+          "title": "Software Engineer - Full Stack",
+          "job_url": "https://www.python.org/jobs/8177/",
+          "location": "Remote, United States"
+        },
+        {
+          "company": "HFT Architecture",
+          "title": "Junior Machine Learning Engineer",
+          "job_url": "https://www.python.org/jobs/8176/",
+          "location": "Remote, Worldwide"
+        },
+        {
+          "company": "HFT Architecture",
+          "title": "Machine Learning Engineer",
+          "job_url": "https://www.python.org/jobs/8175/",
+          "location": "Remote, Worldwide"
+        },
+        {
+          "company": "Uvik Software",
+          "title": "Python Backend Engineer",
+          "job_url": "https://www.python.org/jobs/8174/",
+          "location": "Tallinn, Harju County, Estonia"
+        },
+        {
+          "company": "tem",
+          "title": "Senior Staff Engineer - Origination & New Products",
+          "job_url": "https://www.python.org/jobs/8139/",
+          "location": "Remote (UK / EU), Remote (UK / EU), Remote (UK / EU)"
+        }
+      ]
+    }
+  },
+  "posting_verifications": {}
+}
